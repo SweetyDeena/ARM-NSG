@@ -20,13 +20,13 @@
           {
             "name": "Rule_1",
             "properties": {
+              "priority": 101,
               "protocol":"TCP",
               "sourcePortRange": "*",
               "destinationPortRange": "*",
               "sourceAddressPrefix": "*",
               "destinationAddressPrefix": "*",
               "access": "Allow",
-              "priority": 101,
               "direction": "Inbound"
             }
           }
