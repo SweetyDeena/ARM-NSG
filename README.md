@@ -6,7 +6,7 @@ Using this template, network security group can be deployed.
      
 ->Create a resource group
 
-     az group create --name resourceGroupName --location "West Europe"
+     az group create --name resourceGroupName --location "West US"
      
 ->Deploy template
 
