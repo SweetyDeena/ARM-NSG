@@ -10,4 +10,4 @@ Using this template, network security group can be deployed.
      
 ->Deploy template
 
-     az deployment group create --name DeployLocalTemplate --resource-group $resourceGroupName --template-file <PATH-TO-multiplestorage.JSON> --parameters <PATH-TO-multiplestorage.PARAMETERS.JSON> 
+     az deployment group create --name DeployLocalTemplate --resource-group $resourceGroupName --template-file <PATH-TO-nsg.JSON> --parameters <PATH-TO-nsg.PARAMETERS.JSON> 
